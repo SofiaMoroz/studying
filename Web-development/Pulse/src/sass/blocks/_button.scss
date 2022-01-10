@@ -1,0 +1,28 @@
+.button {
+    width: 150px;
+    height: 30px;
+    background: $main-color;
+    border-radius: 5px;
+    border: none;
+    padding: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: 0.5s all;
+    &:hover {
+        box-shadow: 0 0 20px $main-color;
+    }
+    &_consultation {
+        width: 300px;
+        height: 50px;
+        font-size: 16px;
+        &-mt10 {
+            margin-top: 10px;
+        }
+    }
+    &_mini {
+        width: 131px;
+        height: 40px;
+        font-size: 14px;
+    }
+}

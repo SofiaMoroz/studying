@@ -1,0 +1,26 @@
+.feed-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    input {
+        width: 300px;
+        height: 50px;
+        border-radius: 5px;
+        border: none;
+        margin-bottom: 15px;
+        padding: 0 20px;
+        font-weight: 400;
+        font-size: 14px;
+        color: #4B4B4B;
+        outline: none;
+    }
+    .error {
+        margin-bottom: 10px;
+        font-size: 14px;
+        border: 1px solid red;
+    }
+    label.error {
+        border: none;
+    }
+}

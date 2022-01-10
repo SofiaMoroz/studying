@@ -1,0 +1,29 @@
+.carousel {
+    min-height: 584px;
+    padding: 81px 0;
+    .tns-item {
+        width: 750px;
+        margin: 0 auto;
+        img {
+            display: flex;
+            margin: 0 auto;
+            width: 750px;
+        }
+    }
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 30px;
+        border: none;
+        background-color: transparent;
+        img {
+            width: 31px;
+            height: 50px;
+        }
+    }
+    .next {
+        left: auto;
+        right: 30px;
+    }
+}

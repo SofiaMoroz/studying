@@ -1,0 +1,48 @@
+.modal {
+    width: 380px;
+    min-height: 140px;
+    background: #F2F2F2;
+    padding: 34px 22px 40px;
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+    &__close {
+        position: absolute;
+        top: 0;
+        right: -40px;
+        cursor: pointer;
+        span {
+            font-size: 21px;
+            line-height: 21px;
+            color: $main-color;
+            font-weight: 700;
+        }
+    }
+    &__subtitle {
+        font-weight: 700;
+        font-size: 19px;
+        line-height: 19px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    &__descr {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 14px;
+        margin-bottom: 26px;
+        text-align: center;
+        &_mb0 {
+            margin-bottom: 0;
+        }
+    }
+    .feed-form {
+        display: block;
+        text-align: center;
+    }
+    
+}
+
+#consultation, #order, #thanks {
+    display: none;
+}
